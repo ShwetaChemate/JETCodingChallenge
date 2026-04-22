@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Pizza Express Canterbury",
+    "cuisines": ["Pizza", "Italian"],
+    "rating": 4.5,
+    "address": "23 High Street, Canterbury, CT1 2EH"
+  },
+  {
+    "name": "Zizzi Canterbury",
+    "cuisines": ["Italian", "Pizza", "Pasta"],
+    "rating": 4.2,
+    "address": "15 High Street, Canterbury, CT1 2AU (0.1 mi from CT1 2EH)"
+  },
+  {
+    "name": "Nando's Canterbury",
+    "cuisines": ["Chicken", "Portuguese"],
+    "rating": 4.6,
+    "address": "45 St Peter's Street, Canterbury, CT1 2BG (0.2 mi from CT1 2EH)"
+  },
+  {
+    "name": "Burgess & Co",
+    "cuisines": ["Burgers", "American"],
+    "rating": 4.8,
+    "address": "12 Burgate, Canterbury, CT1 2HG (0.4 mi from CT1 2EH)"
+  },
+  {
+    "name": "Canterbury Fishbar",
+    "cuisines": ["Fish & Chips", "Chicken", "Collect stamps"],
+    "rating": 5.0,
+    "address": "71 Sturry Road, Canterbury, CT1 1BU (0.6 mi from CT1 2EH)"
+  },
+  {
+    "name": "The Dolphin",
+    "cuisines": ["Fish & Chips", "British"],
+    "rating": 4.3,
+    "address": "17 St Radigunds Street, Canterbury, CT1 2AA (0.7 mi from CT1 2EH)"
+  },
+  {
+    "name": "Caesars Pizza",
+    "cuisines": ["Pizza", "Kebab", "Burgers"],
+    "rating": 4.1,
+    "address": "89 Wincheap, Canterbury, CT1 3RY (0.8 mi from CT1 2EH)"
+  },
+  {
+    "name": "Spice Merchant",
+    "cuisines": ["Indian", "Curry", "Tandoori"],
+    "rating": 4.7,
+    "address": "56 Castle Street, Canterbury, CT1 2PY (0.9 mi from CT1 2EH)"
+  },
+  {
+    "name": "Wagamama Canterbury",
+    "cuisines": ["Japanese", "Asian", "Ramen"],
+    "rating": 4.4,
+    "address": "7-8 Longmarket, Canterbury, CT1 2JS (1.0 mi from CT1 2EH)"
+  },
+  {
+    "name": "La Trappola",
+    "cuisines": ["Italian", "Mediterranean"],
+    "rating": 4.9,
+    "address": "3 Dover Street, Canterbury, CT1 3HD (1.1 mi from CT1 2EH)"
+  }
+]
