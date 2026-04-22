@@ -5,7 +5,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
+/**
+ * Root response from Just Eat API
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record RestaurantResponseDto(
-        @JsonProperty("restaurants") List<RestaurantDto> restaurants
+        @JsonProperty("restaurants") List<ApiRestaurantDto> restaurants
 ) {}

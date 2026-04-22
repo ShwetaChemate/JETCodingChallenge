@@ -2,17 +2,17 @@ package org.jetcodingchallenge.data.model;
 
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
- * DTO for mapping the raw API response (includes location coordinates for distance calculation)
+ * Flattened Restaurant DTO for API response
+ * Simplified structure with only required fields
  */
-@JsonIgnoreProperties(ignoreUnknown = true)
 public record RestaurantDto(
         @JsonProperty("name") String name,
-        @JsonProperty("cuisines") List<CuisineDto> cuisines,
-        @JsonProperty("rating") RatingDto rating,
-        @JsonProperty("address") AddressDto address,
-        @JsonProperty("driveDistanceMeters") Integer driveDistanceMeters // For distance calculation
+        @JsonProperty("cuisines") List<String> cuisines, // Flattened to just names
+        @JsonProperty("rating") Double rating,           // Flattened to just the number
+        @JsonProperty("address") String address,         // Joined address with distance context
+        @JsonIgnore Double distanceMiles // Additional field for sorting/filtering
 ) {}
