@@ -1,13 +1,7 @@
 package org.jetcodingchallenge.controller;
 
-import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.Parameter;
-import io.swagger.v3.oas.annotations.media.Content;
-import io.swagger.v3.oas.annotations.media.ExampleObject;
-import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
-import io.swagger.v3.oas.annotations.responses.ApiResponses;
-import io.swagger.v3.oas.annotations.tags.Tag;
+import java.util.List;
+
 import org.jetcodingchallenge.data.model.RestaurantDto;
 import org.jetcodingchallenge.data.model.SortBy;
 import org.jetcodingchallenge.service.RestaurantSvc;
@@ -18,7 +12,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.ExampleObject;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
 @RequestMapping("/api")
@@ -59,8 +60,7 @@ public class RestaurantController {
                             "name": "Canterbury Fishbar",
                             "cuisines": ["Fish & Chips", "Chicken"],
                             "rating": 5.0,
-                            "address": "71 Sturry Road, Canterbury, CT1 1BU (0.6 mi from CT1 2EH)",
-                            "distanceMiles": 0.62
+                            "address": "71 Sturry Road, Canterbury, CT1 1BU (0.6 mi from CT1 2EH)"
                           }
                         ]
                         """
