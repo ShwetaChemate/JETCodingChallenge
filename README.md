@@ -168,6 +168,8 @@ Interactive API documentation is available once the application is running:
 
 **`http://localhost:8080/swagger-ui.html`**
 
+<img width="1428" height="778" alt="Screenshot 2026-04-22 at 7 08 42 PM" src="https://github.com/user-attachments/assets/3f49f9cb-1e70-4a56-a6f8-fa1a5c993480" />
+
 ---
 
 ## Assumptions
